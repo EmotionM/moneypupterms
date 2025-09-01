@@ -2,214 +2,101 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MoneyPup 使用條款 | MoneyPup Terms of Use</title>
-  <meta name="description" content="MoneyPup 使用條款（Terms of Use）。" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MoneyPup 使用條款（Terms of Use）</title>
+  <meta name="description" content="MoneyPup 使用條款（Terms of Use）" />
   <style>
-    :root {
+    :root{
+      color-scheme: light dark;
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #e2e8f0;
+      --muted:#94a3b8;
+      --link:#38bdf8;
+      --border:#334155;
       --maxw: 880px;
-      --fg: #1f2937;
-      --muted: #6b7280;
-      --link: #2563eb;
-      --border: #e5e7eb;
     }
-    html, body { margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", "Noto Sans", "Helvetica Neue", Arial, "PingFang TC", "Heiti TC", sans-serif; color: var(--fg); line-height: 1.65; }
-    header { border-bottom: 1px solid var(--border); background: #fff; }
-    header .wrap { max-width: var(--maxw); margin: 0 auto; padding: 22px 16px; }
-    main { max-width: var(--maxw); margin: 0 auto; padding: 24px 16px 64px; }
-    h1 { font-size: 2rem; margin: 0 0 0.25rem; }
-    h2 { margin-top: 2rem; font-size: 1.35rem; }
-    p, li { font-size: 1rem; }
-    .muted { color: var(--muted); }
-    a { color: var(--link); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .divider { height: 1px; background: var(--border); margin: 24px 0; }
-    .lang { margin-top: 40px; padding-top: 16px; border-top: 1px dashed var(--border); }
-    footer { border-top: 1px solid var(--border); color: var(--muted); font-size: 0.95rem; }
-    footer .wrap { max-width: var(--maxw); margin: 0 auto; padding: 16px; }
-    @media print {
-      a { color: inherit; text-decoration: none; }
-      header, footer { border: 0; }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f8fafc;
+        --card:#ffffff;
+        --text:#0f172a;
+        --muted:#475569;
+        --link:#0ea5e9;
+        --border:#e5e7eb;
+      }
     }
+    html,body{ margin:0; background:var(--bg); color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans TC","PingFang TC","Heiti TC","Microsoft JhengHei",Arial,sans-serif;
+      line-height:1.7;
+    }
+    .container{ max-width:var(--maxw); margin:32px auto; padding:0 16px; }
+    .card{ background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; }
+    h1,h2,h3{ margin-top:1.2em; }
+    .muted{ color:var(--muted); }
+    a{ color:var(--link); text-decoration:none; }
+    footer{ color:var(--muted); margin:24px 0 8px; font-size:14px; }
   </style>
 </head>
 <body>
-  <header>
-    <div class="wrap">
-      <strong>moneypupterms</strong>
-    </div>
-  </header>
+  <main class="container">
+    <article class="card">
+      <h1>MoneyPup 使用條款（Terms of Use）</h1>
+      <p class="muted">更新日期：2025-01-01</p>
 
-  <main>
-    <h1>MoneyPup 使用條款（Terms of Use）</h1>
-    <p class="muted">更新日期：2025-01-01</p>
-
-    <p>
-      歡迎使用 MoneyPup（以下稱「本服務」）。使用本服務即表示你同意遵守本使用條款。若你不同意本條款，請勿使用本服務。
-      同時你也同意遵守 Apple 標準 EULA（Licensed Application End User License Agreement）：
-      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>
-    </p>
-
-    <h2>1. 接受條款</h2>
-    <ul>
-      <li>你對本服務的使用受本使用條款及 Apple 標準 EULA 規範；若二者有衝突，以 Apple 標準 EULA 為準。</li>
-      <li>本條款會不時更新；重大變更將於頁面公告或應用程式內提示。</li>
-    </ul>
-
-    <h2>2. 服務內容</h2>
-    <ul>
-      <li>本服務提供記帳功能（支出/收入記錄、分類、基礎統計）及可選的資料匯出。</li>
-      <li>本服務可能持續更新、增減或調整功能。</li>
-    </ul>
-
-    <h2>3. 帳戶與年齡</h2>
-    <ul>
-      <li>你需具備法定行為能力，或已獲法定監護人同意方得使用。</li>
-    </ul>
-
-    <h2>4. 授權與限制</h2>
-    <ul>
-      <li>授予你非專屬、不可轉讓之個人使用授權於 Apple 裝置上使用本服務。</li>
-      <li>不得重製、反編譯、改作或未經授權散佈本服務內容。</li>
-    </ul>
-
-    <h2>5. 使用者責任</h2>
-    <ul>
-      <li>你對於輸入之資料負全責，並保證不侵害第三方權利或違反法律。</li>
-      <li>不得利用本服務從事任何違法或有害之行為。</li>
-    </ul>
-
-    <h2>6. 付費與退款（如適用）</h2>
-    <ul>
-      <li>若提供內購或訂閱，價格與條款以 App Store 顯示為準。</li>
-      <li>除法律規定或 Apple 政策另有規定外，已付款項不提供退費。</li>
-    </ul>
-
-    <h2>7. 第三方服務與連結</h2>
-    <ul>
-      <li>本服務可能包含第三方連結與服務，對其內容與可用性恕不負責。你應遵守第三方服務條款與隱私政策。</li>
-    </ul>
-
-    <h2>8. 免責聲明</h2>
-    <ul>
-      <li>本服務以「現狀」與「可得」基礎提供，不作任何明示或默示之保證；包含但不限於適售性、特定目的適用性與不侵權。</li>
-    </ul>
-
-    <h2>9. 責任限制</h2>
-    <ul>
-      <li>在適用法律允許的最大範圍內，對於因使用或無法使用本服務所致的任何間接、附帶、特別、衍生或懲罰性損害，我們不承擔責任。</li>
-    </ul>
-
-    <h2>10. 終止</h2>
-    <ul>
-      <li>若你違反本條款或有其他正當理由，我們得隨時終止或暫停你對本服務的使用。</li>
-    </ul>
-
-    <h2>11. 準據法與管轄</h2>
-    <ul>
-      <li>以你所在地的強制法規優先適用；如無強制規定，依我們營運所在地之法律解釋與處理。</li>
-    </ul>
-
-    <h2>12. 隱私政策</h2>
-    <ul>
-      <li>請參考隱私權政策頁面：<a href="https://emotionm.github.io/moneypupprivacy/" target="_blank" rel="noopener">https://emotionm.github.io/moneypupprivacy/</a></li>
-    </ul>
-
-    <h2>13. 聯絡我們</h2>
-    <ul>
-      <li>如有疑問或權利主張，請聯繫：<a href="mailto:contactemotionm@gmail.com">contactemotionm@gmail.com</a></li>
-    </ul>
-
-    <div class="lang">
-      <h1>MoneyPup Terms of Use</h1>
-      <p class="muted">Last Updated: 2025-01-01</p>
-
-      <p>
-        By using MoneyPup (“the Service”), you agree to these Terms. If you do not agree, please do not use the Service.
-        You also agree to Apple’s Standard EULA:
+      <p>歡迎使用 MoneyPup（以下稱「本服務」）。使用本服務即表示你同意遵守本使用條款。若你不同意本條款，請勿使用本服務。同時你也同意遵守 Apple 標準 EULA（Licensed Application End User License Agreement）：<br />
         <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>
       </p>
 
-      <h2>1. Acceptance</h2>
+      <h2>1. 接受條款</h2>
       <ul>
-        <li>Your use is governed by these Terms and Apple’s Standard EULA; if there is any conflict, Apple’s Standard EULA prevails.</li>
-        <li>We may update these Terms; material changes will be announced on this page or in-app.</li>
+        <li>你對本服務的使用受本使用條款及 Apple 標準 EULA 規範；若二者有衝突，以 Apple 標準 EULA 為準。</li>
+        <li>本條款會不時更新；重大變更將於本頁面公告或應用程式內提示。</li>
       </ul>
 
-      <h2>2. Service</h2>
+      <h2>2. 服務內容</h2>
       <ul>
-        <li>Expense/income tracking, categorization, basic analytics, and optional data export.</li>
-        <li>Features may be added, removed, or modified over time.</li>
+        <li>本服務提供記帳功能（支出/收入記錄、分類、基礎統計）及可選的資料匯出。</li>
+        <li>本服務可能持續調整、增減或調整功能。</li>
       </ul>
 
-      <h2>3. Eligibility</h2>
+      <h2>3. 帳戶與年齡</h2>
       <ul>
-        <li>You must have legal capacity or guardian consent to use the Service.</li>
+        <li>本服務適用於一般用戶；若未達當地法定成年年齡，應在監護人指導下使用。</li>
       </ul>
 
-      <h2>4. License and Restrictions</h2>
+      <h2>4. 資料與隱私</h2>
       <ul>
-        <li>Non-exclusive, non-transferable personal-use license on Apple devices.</li>
-        <li>No reproduction, reverse engineering, modification, or distribution without authorization.</li>
+        <li>本服務依據<a href="https://emotionm.github.io/moneypupprivacy/" target="_blank" rel="noopener">隱私權政策</a>處理資料。</li>
       </ul>
 
-      <h2>5. User Responsibilities</h2>
+      <h2>5. 使用限制</h2>
       <ul>
-        <li>You are responsible for the data you input and for lawful use.</li>
-        <li>You must not use the Service for illegal or harmful activities.</li>
+        <li>不得以任何方式逆向工程、未經授權使用或干擾服務運作。</li>
       </ul>
 
-      <h2>6. Purchases and Refunds (if applicable)</h2>
+      <h2>6. 免責與責任限制</h2>
       <ul>
-        <li>Pricing/terms follow App Store display.</li>
-        <li>Except as required by law or Apple policy, payments are non-refundable.</li>
+        <li>本服務按「現況」提供，對於可用性、準確性不作保證；在法律允許範圍內，對於因使用本服務所造成的任何間接或附帶損害不承擔責任。</li>
       </ul>
 
-      <h2>7. Third-Party Services and Links</h2>
+      <h2>7. 終止</h2>
       <ul>
-        <li>We are not responsible for third-party content/availability. Follow their terms and policies.</li>
+        <li>若你違反本條款或有違法/濫用情形，我們得在必要時限制或終止你對本服務的使用。</li>
       </ul>
 
-      <h2>8. Disclaimer</h2>
+      <h2>8. 變更</h2>
       <ul>
-        <li>The Service is provided “as is” and “as available,” without warranties of any kind.</li>
+        <li>我們可能隨時更新本條款；變更後將於本頁或應用程式內提示，繼續使用即表示同意變更。</li>
       </ul>
 
-      <h2>9. Limitation of Liability</h2>
+      <h2>9. 聯絡</h2>
       <ul>
-        <li>To the maximum extent permitted by law, we are not liable for indirect, incidental, special, consequential, or punitive damages.</li>
+        <li>若需支援或就本條款提出疑問，請電郵至 <strong>contactemotionm@gmail.com</strong>（純文字，不可點擊）。</li>
       </ul>
+    </article>
 
-      <h2>10. Termination</h2>
-      <ul>
-        <li>We may suspend or terminate access at any time for violation of these Terms or other legitimate reasons.</li>
-      </ul>
-
-      <h2>11. Governing Law</h2>
-      <ul>
-        <li>Mandatory local consumer laws apply first; otherwise, laws of our operating jurisdiction govern.</li>
-      </ul>
-
-      <h2>12. Privacy Policy</h2>
-      <ul>
-        <li>See: <a href="https://emotionm.github.io/moneypupprivacy/" target="_blank" rel="noopener">https://emotionm.github.io/moneypupprivacy/</a></li>
-      </ul>
-
-      <h2>13. Contact</h2>
-      <ul>
-        <li>Questions or claims: <a href="mailto:contactemotionm@gmail.com">contactemotionm@gmail.com</a> </li>
-      </ul>
-    </div>
+    <footer>© 2025 Money Pup Development</footer>
   </main>
-
-  <footer>
-    <div class="wrap">
-      © <span id="y"></span> Money Pup Development. All rights reserved.
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
